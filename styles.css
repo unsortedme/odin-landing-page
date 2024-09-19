@@ -10,7 +10,8 @@ body {
 
 .header {    
     background-color: #1f2937;
-    padding: 12px 500px;
+    padding: 16px 620px;
+    /* padding: 16px 100px; */
     margin: 0;
     display: flex;
     justify-content: space-between;
@@ -25,6 +26,7 @@ body {
     font-weight: bold;
     display: flex;
     flex-shrink: 0;
+    margin: 0;
 }
 
 .header-links {
@@ -54,12 +56,16 @@ ul {
 .hero {
     /* outline: 1px red solid; */
     background-color: #1f2937;
-    padding: 100px 500px;
+    /* padding: 100px 500px; */
+
+    padding: 100px 100px;
     margin: 0;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 200px;
+    justify-content: center;
+    /* align-items: center; */
+    
+    /* gap: 200px; */
+    flex-wrap: wrap;
 }
 
 .hero-content {
@@ -69,11 +75,14 @@ ul {
     flex-direction: column;
     flex-shrink: 0;
     align-items: flex-start;
-    gap: 24px;
+    gap: 32px;
+    margin-bottom: 100px;
+    margin-right: 100px;
 
 }
 
 .hero-title {
+    /* outline: 1px red solid;  */
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
@@ -81,12 +90,14 @@ ul {
 }
 
 .hero-text {
+    /* outline: 1px red solid;  */
     font-size: 18px;
     color: #e5e7eb;
 
 }
 
 .hero-button {
+    /* outline: 1px red solid;  */
     background-color: #3882f6;
     color: #e5e7eb;
     font-weight: bold;
@@ -100,4 +111,50 @@ ul {
     height: 400px;
 }
 
-/* information header */
+/* information section */
+
+.info {
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.info-header {
+    /* outline: 1px red solid; */
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.info-cards {
+    /* outline: 1px magenta solid; */
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    /* outline: 1px red solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+}
+
+.card-image {
+    height: 300px;
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+}
+
+.card-text {
+    /* outline: 1px magenta solid; */
+    padding: 16px 48px;
+    font-size: 18px;
+    text-align: center;
+}

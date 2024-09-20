@@ -11,12 +11,13 @@ body {
 .header {   
     /* outline: 1px red solid;  */
     background-color: #1f2937;
-    padding: 16px 570px 16px 620px;
+    /* padding: 16px 570px 16px 620px; */
+    padding: 24px 0;
     margin: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    gap: 48px;
+    gap: 184px;
 }
 
 .logo {
@@ -53,14 +54,23 @@ ul {
 
 /* hero section */
 
+.hero-section {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    
+}
+
 .hero {
     /* outline: 1px red solid; */
-    background-color: #1f2937;
+    max-width: 1500px;
+    
     padding: 100px 100px;
     margin: 0;
     display: flex;
     justify-content: center;
-    gap: 100px;
+    align-items: center;
+    gap: 300px;
     flex-wrap: wrap;
 }
 
@@ -72,7 +82,7 @@ ul {
     flex-shrink: 0;
     align-items: flex-start;
     gap: 32px;
-    padding: 50px;
+    padding: 50px 0;
 
 }
 
@@ -104,7 +114,8 @@ ul {
 
 .hero-image {
     /* outline: 1px red solid; */
-    height: 400px;
+    height: 300px;
+    padding: 50px 0;
 }
 
 /* information section */

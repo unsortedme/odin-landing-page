@@ -93,6 +93,7 @@ ul {
 
 .hero-button {
     /* outline: 1px red solid;  */
+    border: 0;
     background-color: #3882f6;
     color: #e5e7eb;
     font-weight: bold;

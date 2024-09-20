@@ -157,3 +157,31 @@ ul {
 
 /* quote */
 
+.quote {
+    outline: 1px magenta solid;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-content {
+    padding: 64px;
+    max-width: 720px;
+    text-align: justify;
+}
+
+.quote-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    padding-bottom: 16px;
+}
+
+.quote-author {
+    font-weight: bold;
+    text-align: end;
+}
+
+/* footer */
+
